@@ -133,7 +133,7 @@ scrollToHash(window.location.hash);
 // 메뉴 숨기기 효과
 const showNav = gsap
   .from("#nav", {
-    yPercent: 150,
+    yPercent: 200,
     paused: true,
     duration: 0.4,
   })
