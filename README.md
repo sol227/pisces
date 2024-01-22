@@ -10,7 +10,7 @@
 
 #### 240122
 
-- html - &lt;&gt;에 링크 연결
+- html - &lt;a&gt;에 링크 연결
 - html - favicon 추가
 
 - js - gsap scrollTo로 메뉴 숨기는 효과 구현  
