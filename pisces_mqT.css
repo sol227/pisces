@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+@media (width>=768px) {
+  .logo_wrap .m_logo {
+    width: 100vw;
+    /* padding: 0 30px; */
+    box-sizing: border-box;
+  }
+
+  /* header */
+  .main_wrap .header .header_logo .logo_wrap {
+    padding: 0 30px;
+  }
+  .main_wrap .header .header_logo .album_etc {
+    width: 367px;
+    /* opacity: 0; */
+    padding-right: 30px;
+  }
+  .main_wrap .pisces_info {
+    width: 100%;
+    font-size: 1.9rem;
+    padding: 100px 30px;
+  }
+  .main_wrap .pisces_info .pisces_info_txt {
+    width: 75%;
+    min-width: 530px;
+    max-width: 530px;
+  }
+  .main_wrap .track {
+    z-index: 70;
+    background-color: #f1f0ed;
+    border-radius: 30px;
+    padding: 150px 30px;
+  }
+  .main_wrap .track .title {
+    font-size: 1.15rem;
+  }
+  .main_wrap .track .tracklist {
+    gap: 170px 35px;
+    place-items: top;
+    grid-template-columns: 1fr 1fr;
+  }
+  .main_wrap .track .tracklist li {
+    width: 100%;
+  }
+  .main_wrap .track .tracklist li img {
+    object-fit: contain;
+    width: 100%;
+  }
+  .main_wrap .track .tracklist li:nth-child(1) {
+    order: 0;
+  }
+  .main_wrap .track .tracklist li:nth-child(2) {
+    order: 1;
+  }
+  .main_wrap .track .tracklist li:nth-child(3) {
+    order: 4;
+  }
+  .main_wrap .track .tracklist li:nth-child(4) {
+    order: 3;
+  }
+  .main_wrap .track .tracklist li:nth-child(5) {
+    order: 5;
+  }
+  .main_wrap .track .tracklist li:nth-child(6) {
+    order: 6;
+  }
+  .main_wrap .track .tracklist li:nth-child(even) .lyrics_wrap {
+    width: 100%;
+    height: 27vw;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main_wrap .track .tracklist li .track_info {
+    padding-top: 30px;
+    font-size: 0.9rem;
+  }
+
+  .main_wrap .track .tracklist li .track_info .track_title {
+    font-size: 1rem;
+  }
+
+  .main_wrap .track .listen_btn {
+    padding: 170px 0 60px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+
+  /*** footer ***/
+  .footer {
+    padding: 80px 0;
+    bottom: -650px;
+  }
+  .footer .recommended .mySwiper {
+    padding: 0 30px;
+  }
+  .footer .recommnded .mySwiper .music_list li {
+    font-size: 1.15rem;
+  }
+  .footer .recommended .mySwiper .music_list li .music_txt {
+    padding-top: 30px;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+  .footer .recommended .mySwiper .music_list li .music_title {
+    font-size: 1.15rem;
+    line-height: 1.6;
+  }
+  .footer
+    .recommended
+    .mySwiper
+    .music_list
+    li
+    .music_txt
+    .music_title
+    .singer {
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  .footer .recommended .mySwiper .music_list li .music_txt .music_info {
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1.1;
+  }
+
+  .footer .recommended .mySwiper .music_list li .lyrics {
+    font-size: 1.15rem;
+    line-height: 1.65;
+    padding-top: 45px;
+  }
+
+  .footer .recommended .title {
+    padding: 0 30px;
+    font-size: 1.15rem;
+  }
+  .footer .footer_link .footer_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 30px;
+  }
+  .footer .footer_link .footer_logo .logo_wrap {
+    width: 70%;
+    /* max-width: 470px; */
+    box-sizing: border-box;
+  }
+  .footer .footer_link .footer_logo .logo_wrap .m_logo {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .footer .footer_link .footer_logo .logo_wrap .m_logo img {
+    max-width: 470px;
+  }
+
+  .footer .footer_link .album_etc {
+    width: 220px;
+    height: 60px;
+    justify-content: flex-end;
+    padding: 0;
+  }
+  .footer .footer_link .album_etc li {
+    height: 25px;
+  }
+  .footer .footer_link .copy_wrap {
+    padding: 15px 30px;
+    font-size: 0.8rem;
+    font-weight: 800;
+  }
+  .footer .footer_link .copy_wrap p:nth-child(2) {
+    font-size: 0.9rem;
+  }
+}
